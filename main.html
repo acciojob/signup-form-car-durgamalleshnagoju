@@ -10,6 +10,43 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+<section class="form">
+	<form>
+		<label for="name">Name</label>
+		<input type="text" id="name" placeholder="Name" name="name" required>
+		<label for="email">Email</label>
+		<input type="email" id="email" placeholder="Email" name="email" required>
+		<label for="gender">Gender</label>
+		<div>
+			
+			<input type="radio" id="gender_m" value="Male" name="gender" required>
+			<label>MALE</label>
+			<input type="radio" id="gender_f" value="Female" name="gender" required>
+			<label>FEMALE</label>
+		</div>
+		<label for="cars">Car Brands</label>
+		<select for="cars" name="cars">
+			<option value="none" >Select a Car</option>
+			<option value="lambo" >Lambo</option>
+			<option value="audi" >Audi</option>
+			<option value="bmw" >BMW</option>
+			<option value="ferrari" >Ferrari</option>
+		</select>
+		<label for="age">Age</label>
+		<input type="number" id="age" placeholder="Age" name="age" required>
+		<label for="dob">DOB</label>
+		<input type="date" id="dob"  name="dob" required>
+		<label for="tel">Phone Number</label>
+		<input type="tel" id="tel" placeholder="xxx-xxx-xxxx" name="tel" >
+		<label for="password"></label>
+		<input type="password" id="password" placeholder="Password" name="password" required>
+		<div>
+			<input type="checkbox" id="tos" name="tos" required>
+			<label for="tos">I agree to the TOS</label>
+		</div>
+		
+	</form>
+</section>
 
 </body>
 
